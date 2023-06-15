@@ -1,0 +1,45 @@
+.subheading {
+  font-family: $text3;
+  font-weight: 600;
+  display: flex;
+  //   justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 25px 15px;
+
+  padding: 12px;
+  border-left: 2px solid $primary;
+
+  > h1 {
+    color: $primary;
+    font-family: $text3;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 7px;
+  }
+  > .line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5256c61a;
+    width: 79%;
+  }
+  > button {
+    background-color: $primary;
+    color: #fff;
+    padding: 6px 12px;
+    gap: 8px;
+    width: 137px;
+    height: 31px;
+    background: #ff6600;
+    border-radius: 3px;
+    border: none;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+}
+
+.container {
+  padding: 30px;
+  margin: 10px;
+}
